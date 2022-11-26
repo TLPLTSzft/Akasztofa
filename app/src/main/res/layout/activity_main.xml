@@ -17,7 +17,7 @@
 			android:layout_gravity="center">
 			
 			<androidx.appcompat.widget.AppCompatButton
-				android:id="@+id/abdVisszaButton"
+				android:id="@+id/appCompatButtonAbcVissza"
 				android:layout_width="70dp"
 				android:layout_height="70dp"
 				android:background="@drawable/buttonbackround"
@@ -26,7 +26,7 @@
 				android:textStyle="bold" />
 			
 			<TextView
-				android:id="@+id/tipp"
+				android:id="@+id/textViewTipp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:padding="30sp"
@@ -36,7 +36,7 @@
 				android:textStyle="bold" />
 			
 			<androidx.appcompat.widget.AppCompatButton
-				android:id="@+id/abcEloreButton"
+				android:id="@+id/appCompatButtonAbcElore"
 				android:layout_width="70dp"
 				android:layout_height="70dp"
 				android:background="@drawable/buttonbackround"
@@ -53,25 +53,25 @@
 			android:orientation="vertical">
 			
 			<androidx.appcompat.widget.AppCompatButton
-				android:id="@+id/tippelButton"
+				android:id="@+id/appCompatButtonTippel"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:text="TIPPEL"
 				android:textSize="25sp" />
 			
 			<ImageView
-				android:id="@+id/akasztofaImage"
+				android:id="@+id/imageViewAkasztofa"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:layout_marginTop="-175dp"
 				android:layout_marginBottom="-265dp"
-				android:src="@drawable/akasztofa13" />
+				android:src="@drawable/akasztofa01" />
 			
 			<TextView
-				android:id="@+id/kitalalandoSzo"
+				android:id="@+id/textViewKitalalandoSzo"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:text="_ T _ A _ _ Z"
+				android:text=""
 				android:textSize="40sp"
 				android:textStyle="bold" />
 		
